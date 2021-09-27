@@ -1,0 +1,24 @@
+{
+  "name": "robinhood-stock-crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khoidao55/robinhood-stock-crypto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khoidao55/robinhood-stock-crypto/issues"
+  },
+  "homepage": "https://github.com/Khoidao55/robinhood-stock-crypto#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
