@@ -1,9 +1,9 @@
 import React from 'react';
-
+import LineGraph from './LineGraph/LineGraph.jsx';
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <LineGraph />
     </div>
   )
 }
