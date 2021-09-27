@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "react-dev": "webpack --watch",
     "start": "nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,8 +20,19 @@
   },
   "homepage": "https://github.com/Khoidao55/robinhood-stock-crypto#readme",
   "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "chart.js": "^3.5.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.13",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.5",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
     "websocket": "^1.0.34",
     "ws": "^8.2.2"
   }

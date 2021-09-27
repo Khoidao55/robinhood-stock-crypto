@@ -5,6 +5,7 @@ const { API_KEY } = require('../finnhub-api.js');
 
 const app = express();
 
+app.use(express.static('public'));
 // app.use(bodyParser.json({limit: "50mb"}));
 // app.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
 const socket = new WebSocket(`wss://ws.finnhub.io?token=${API_KEY}`);
